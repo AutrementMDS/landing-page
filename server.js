@@ -22,4 +22,6 @@ app.get("/confidentialite", (req, res) => {
   res.sendFile(path.join(__dirname, "public/confidentialite.html"));
 });
 
-app.listen(process.env.PORT, () => console.log("listening on port 3000"));
+app.listen(process.env.PORT, () =>
+  console.log("listening on port " + process.env.PORT)
+);

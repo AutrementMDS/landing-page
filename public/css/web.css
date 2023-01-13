@@ -215,4 +215,18 @@
     margin-top: 2vh;
     font-weight: bold;
   }
+
+  .pointsStyle {
+    margin-bottom: 1vh;
+    padding: 20px;
+    font-size: 25px;
+    color: #1e361d;
+    border-radius: 10px;
+    background-color: #c9f9cb52;
+    cursor: pointer;
+  }
+
+  .selectedPoint {
+    border: 5px solid #40693e;
+  }
 }
