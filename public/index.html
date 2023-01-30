@@ -12,7 +12,7 @@
     />
     <meta
       name="description"
-      content="Autrement : Votre marché local en ligne, découvrez les producteurs autour de chez vous et commenceza à consommer local."
+      content="Autrement : Votre marché local en ligne, découvrez les producteurs autour de chez vous et commencez à consommer local. Découvrez les producteurs d'Annecy et de ses alentours."
     />
     <meta
       name="keywords"
@@ -32,25 +32,32 @@
       crossorigin="anonymous"
     ></script>
     <link rel="icon" href="images/logo.png" type="image/png" />
-    <title>Autrement</title>
+    <title>Autrement - Votre marché local en ligne</title>
   </head>
   <body>
     <!-- Header -->
     <header>
-      <a href="/">
+      <a title="Aller vers..." href="/">
         <div class="logoContainer">
-          <img src="images/logo.png" class="logo" />
+          <img alt="image" title="Button" src="images/logo.png" class="logo" />
           <h2 class="brandName">Autrement</h2>
         </div></a
       >
 
-      <a href="https://app.autrement.site/"><i class="fa fa-user"></i></a>
+      <a title="Aller vers..." href="https://app.autrement.site/"
+        ><i class="fa fa-user"></i
+      ></a>
     </header>
     <section class="main">
-      <img src="/images/background.jpg" class="whiteFilter" />
+      <img
+        alt="image"
+        title="Button"
+        src="/images/background.jpg"
+        class="whiteFilter"
+      />
       <div class="mainContent">
         <div class="text">
-          <p>Soutenez les producteurs français près de chez vous</p>
+          <h1>Soutenez les producteurs français près de chez vous</h1>
           <div>
             <div class="pointsStyle points selectedPoint">
               Point de retrait Seynod - Les vendredis à partir de 16h
@@ -58,7 +65,9 @@
             <div class="pointsStyle disabledPoint">
               Ouverture d'un deuxième point retrait prochainement ...
             </div>
-            <a href="https://app.autrement.site/"><button>COMMENCER</button></a>
+            <a title="Aller vers..." href="https://app.autrement.site/"
+              ><button>COMMENCER</button></a
+            >
           </div>
         </div>
         <div class="image">
@@ -67,7 +76,12 @@
       </div>
     </section>
     <footer>
-      <img src="/images/logo_footer.png" class="logoFooter" />
+      <img
+        alt="image"
+        title="Button"
+        src="/images/logo_footer.png"
+        class="logoFooter"
+      />
 
       <div class="tableContainer">
         <table>
@@ -79,38 +93,61 @@
           </tr>
           <tr>
             <td>
-              <img class="downloadButton" src="/images/appStore.png" />
-              <img class="downloadButton" src="/images/googlePlay.png" />
+              <img
+                alt="image"
+                title="Button"
+                class="downloadButton"
+                src="/images/appStore.png"
+              />
+              <img
+                alt="image"
+                title="Button"
+                class="downloadButton"
+                src="/images/googlePlay.png"
+              />
             </td>
             <td></td>
             <td>A propos de nous</td>
 
-            <td><a href="https://app.autrement.site/">Mon compte</a></td>
+            <td>
+              <a title="Aller vers..." href="https://app.autrement.site/"
+                >Mon compte</a
+              >
+            </td>
           </tr>
           <tr class="lastRow">
             <td>
               <a
                 href="https://www.facebook.com/autrement.local"
                 target="_blank"
+                title="Social"
               >
                 <i class="fa-brands fa-facebook"></i>
               </a>
               <a
                 href="https://www.instagram.com/autrement.local/"
                 target="_blank"
+                title="Social"
               >
                 <i class="fa-brands fa-instagram"></i>
               </a>
               <a
                 href="https://www.linkedin.com/company/autrement-local/"
                 target="_blank"
+                title="Social"
               >
                 <i class="fa-brands fa-linkedin"></i>
               </a>
             </td>
-            <td><a href="/CGU">CGU</a></td>
-            <td><a href="/cookies">Gestion des cookies</a></td>
-            <td><a href="/confidentialite">Politique de confidentialité</a></td>
+            <td><a title="Aller vers..." href="/CGU">CGU</a></td>
+            <td>
+              <a title="Aller vers..." href="/cookies">Gestion des cookies</a>
+            </td>
+            <td>
+              <a title="Aller vers..." href="/confidentialite"
+                >Politique de confidentialité</a
+              >
+            </td>
           </tr>
         </table>
       </div>
@@ -131,7 +168,7 @@
     var tuileUrl = "http://{s}.tile.osm.org/{z}/{x}/{y}.png";
 
     var attrib =
-      'Map data © <a href="http://openstreetmap.org">OpenStreetMap</a> contributors';
+      'Map data © <a title="Aller vers..."href="http://openstreetmap.org">OpenStreetMap</a> contributors';
 
     var osm = L.tileLayer(tuileUrl, {
       minZoom: 10,
