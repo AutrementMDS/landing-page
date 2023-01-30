@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /cookies
+Disallow: /confidentialite
+Disallow: /CGU
+Disallow: /CGV
+Sitemap: https://www.autrement.site/sitemap.xml
